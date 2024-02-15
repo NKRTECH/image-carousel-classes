@@ -1,0 +1,107 @@
+/* write your carousel css in this file */
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn1{
+    text-align: center;
+    border: 5px solid black;
+    /* border-radius: 50%; */
+    width: 50px;
+    height: 100%;
+    background-color: aqua;
+    opacity: calc(0.6);
+    font-size: 35px;
+}/* write your carousel css in this file */
+body{
+    background-color: rgb(0, 0, 0);
+    margin: 1fr 1fr 1fr 1fr;
+}
+  
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+img{
+    height: 670px;
+    width: 630px;
+}
+
+.sidebtn{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    /* width: 30px; */
+    align-content: center;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 20px;
+    border-radius: 100px;
+    opacity: 0.9;
+
+}
+
+.texter{
+    background-color: white;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    border-radius: 15px;
+    opacity: 0.9;
+}
+
+h1{
+    font-size: 50px;
+    position: absolute; 
+    top: 40%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+
+h3{
+    font-size: 30px;
+    position: absolute; 
+    top: 70%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+.btn2{
+    text-align: center;
+    border: 5px solid black;
+    /* border-radius: 50%; */
+    width: 50px;
+    height: 100%;
+    background-color: aqua;
+    opacity: calc(0.6);
+    font-size: 35px;
+}
+
+img{
+    
+    width: 900px;
+    height: 1000px;
+}
+h1{
+    text-align: center;
+    background-color: aliceblue;
+    padding: 50px;
+    border-radius: 10px;
+}
+#low{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: aliceblue;
+    opacity: calc(0.6);
+    border-radius: 10px;
+}
+#top{
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: aliceblue;
+    opacity: calc(0.6);
+    border-radius: 10px;
+}
